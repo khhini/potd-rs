@@ -1,12 +1,7 @@
-mod bing;
-mod command;
-mod error;
-
 use clap::Parser;
-
-use crate::{
-    command::{Cli, dispatch_command},
-    error::PotdError,
+use potd_rs::{
+    adapters::cli::dispatch_command,
+    core::{entities::cli::Cli, error::PotdError},
 };
 
 #[tokio::main]

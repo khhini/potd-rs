@@ -1,5 +1,7 @@
 # Picture of the Day CLI Tool
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A simple command-line interface (CLI) tool written in Rust to fetch and download the Bing Picture of the Day.
 
 ## Table of Contents
